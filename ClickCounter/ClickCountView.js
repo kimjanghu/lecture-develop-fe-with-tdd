@@ -1,4 +1,3 @@
-
 var App = App || {}
 
 App.ClickCountView = (clickCounter, options) => {
@@ -18,7 +17,7 @@ App.ClickCountView = (clickCounter, options) => {
   }
   
   options.triggerEl.addEventListener('click', () => {
-   view.increaseAndUpdateView()   
+    view.increaseAndUpdateView()   
   })
 
   return view
